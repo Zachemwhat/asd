@@ -1,0 +1,380 @@
+object Form1: TForm1
+  Left = 238
+  Height = 631
+  Top = 106
+  Width = 1020
+  Caption = 'Form1'
+  ClientHeight = 631
+  ClientWidth = 1020
+  Color = clWhite
+  LCLVersion = '1.6.2.0'
+  object tc: TPageControl
+    Left = 0
+    Height = 631
+    Top = 0
+    Width = 1020
+    ActivePage = TabSheet1
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = 'TabSheet1'
+      ClientHeight = 603
+      ClientWidth = 1012
+      TabVisible = False
+      object Shape1: TShape
+        Left = 0
+        Height = 104
+        Top = 0
+        Width = 1012
+        Align = alTop
+        Brush.Color = 14979674
+      end
+      object Shape2: TShape
+        Left = 384
+        Height = 88
+        Top = 224
+        Width = 356
+        Brush.Color = 14979674
+        OnMouseDown = Shape2MouseDown
+        Shape = stRoundRect
+      end
+      object Shape3: TShape
+        Left = 384
+        Height = 88
+        Top = 344
+        Width = 356
+        Brush.Color = 14979674
+        OnMouseDown = Shape3MouseDown
+        Shape = stRoundRect
+      end
+      object Label1: TLabel
+        Left = 224
+        Height = 89
+        Top = 0
+        Width = 659
+        Caption = 'Калькулятор ремонта'
+        Font.Color = clWhite
+        Font.Height = -67
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label2: TLabel
+        Left = 432
+        Height = 37
+        Top = 248
+        Width = 275
+        Caption = 'Создать пользователя'
+        Font.Color = clWhite
+        Font.Height = -27
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label3: TLabel
+        Left = 512
+        Height = 37
+        Top = 368
+        Width = 74
+        Caption = 'Войти'
+        Font.Color = clWhite
+        Font.Height = -27
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'TabSheet2'
+      ClientHeight = 603
+      ClientWidth = 1012
+      TabVisible = False
+      object Shape4: TShape
+        Left = 0
+        Height = 104
+        Top = 0
+        Width = 1012
+        Align = alTop
+        Brush.Color = 14979674
+      end
+      object Shape13: TShape
+        Left = 336
+        Height = 65
+        Top = 144
+        Width = 65
+        Pen.Color = 14979674
+        Shape = stRoundRect
+      end
+      object Shape14: TShape
+        Left = 515
+        Height = 65
+        Top = 254
+        Width = 65
+        Pen.Color = 14979674
+        Shape = stRoundRect
+      end
+      object Shape15: TShape
+        Left = 553
+        Height = 65
+        Top = 368
+        Width = 65
+        Pen.Color = 14979674
+        Shape = stRoundRect
+      end
+      object Shape16: TShape
+        Left = 758
+        Height = 65
+        Top = 422
+        Width = 65
+        Pen.Color = 14979674
+        Shape = stRoundRect
+      end
+      object Shape17: TShape
+        Left = 344
+        Height = 65
+        Top = 512
+        Width = 65
+        Brush.Color = 14979674
+        Pen.Color = 14979674
+        Shape = stRoundRect
+      end
+      object Label4: TLabel
+        Left = 256
+        Height = 89
+        Top = 0
+        Width = 659
+        Caption = 'Калькулятор ремонта'
+        Font.Color = clWhite
+        Font.Height = -67
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label5: TLabel
+        Left = 30
+        Height = 37
+        Top = 168
+        Width = 229
+        Caption = 'Имя пользователя'
+        Font.Height = -27
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label6: TLabel
+        Left = 30
+        Height = 37
+        Top = 208
+        Width = 76
+        Caption = 'E-mail'
+        Font.Height = -27
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label7: TLabel
+        Left = 30
+        Height = 37
+        Top = 272
+        Width = 93
+        Caption = 'Пароль'
+        Font.Height = -27
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label8: TLabel
+        Left = 30
+        Height = 37
+        Top = 351
+        Width = 230
+        Caption = 'Повторите пароль'
+        Font.Height = -27
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label9: TLabel
+        Left = 360
+        Height = 28
+        Top = 536
+        Width = 72
+        Caption = 'Создать'
+        Font.Color = clWhite
+        Font.Height = -20
+        ParentColor = False
+        ParentFont = False
+      end
+      object Edit1: TEdit
+        Left = 376
+        Height = 23
+        Top = 168
+        Width = 80
+        AutoSize = False
+        Color = clNone
+        TabOrder = 0
+        TextHintFontColor = clNone
+      end
+      object Edit2: TEdit
+        Left = 558
+        Height = 23
+        Top = 316
+        Width = 80
+        AutoSize = False
+        TabOrder = 1
+      end
+      object Edit3: TEdit
+        Left = 653
+        Height = 23
+        Top = 393
+        Width = 80
+        AutoSize = False
+        TabOrder = 2
+      end
+      object Edit4: TEdit
+        Left = 807
+        Height = 23
+        Top = 431
+        Width = 80
+        AutoSize = False
+        TabOrder = 3
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'TabSheet3'
+      ClientHeight = 603
+      ClientWidth = 1012
+      TabVisible = False
+      object Shape5: TShape
+        Left = 0
+        Height = 104
+        Top = 0
+        Width = 1012
+        Align = alTop
+        Brush.Color = 14979674
+      end
+      object Shape18: TShape
+        Left = 384
+        Height = 65
+        Top = 176
+        Width = 65
+        Pen.Color = 14979674
+        Shape = stRoundRect
+      end
+      object Shape19: TShape
+        Left = 408
+        Height = 65
+        Top = 296
+        Width = 65
+        Pen.Color = 14979674
+        Shape = stRoundRect
+      end
+      object Label10: TLabel
+        Left = 424
+        Height = 15
+        Top = 32
+        Width = 40
+        Caption = 'Label10'
+        ParentColor = False
+      end
+      object Label11: TLabel
+        Left = 64
+        Height = 15
+        Top = 248
+        Width = 40
+        Caption = 'Label11'
+        ParentColor = False
+      end
+      object Label12: TLabel
+        Left = 88
+        Height = 15
+        Top = 320
+        Width = 40
+        Caption = 'Label12'
+        ParentColor = False
+      end
+    end
+    object TabSheet4: TTabSheet
+      Caption = 'TabSheet4'
+      ClientHeight = 603
+      ClientWidth = 1012
+      TabVisible = False
+      object Shape7: TShape
+        Left = 0
+        Height = 104
+        Top = 0
+        Width = 1012
+        Align = alTop
+        Brush.Color = 14979674
+      end
+    end
+    object TabSheet5: TTabSheet
+      Caption = 'TabSheet5'
+      ClientHeight = 603
+      ClientWidth = 1012
+      TabVisible = False
+      object Shape8: TShape
+        Left = 0
+        Height = 104
+        Top = 0
+        Width = 1012
+        Align = alTop
+        Brush.Color = 14979674
+      end
+    end
+    object TabSheet6: TTabSheet
+      Caption = 'TabSheet6'
+      ClientHeight = 603
+      ClientWidth = 1012
+      TabVisible = False
+      object Shape9: TShape
+        Left = 0
+        Height = 104
+        Top = 0
+        Width = 1012
+        Align = alTop
+        Brush.Color = 14979674
+      end
+    end
+    object TabSheet7: TTabSheet
+      Caption = 'TabSheet7'
+      ClientHeight = 603
+      ClientWidth = 1012
+      TabVisible = False
+      object Shape10: TShape
+        Left = 0
+        Height = 104
+        Top = 0
+        Width = 1012
+        Align = alTop
+        Brush.Color = 14979674
+      end
+    end
+    object TabSheet8: TTabSheet
+      Caption = 'TabSheet8'
+      ClientHeight = 603
+      ClientWidth = 1012
+      TabVisible = False
+      object Shape11: TShape
+        Left = 0
+        Height = 104
+        Top = 0
+        Width = 1012
+        Align = alTop
+        Brush.Color = 14979674
+      end
+    end
+    object TabSheet9: TTabSheet
+      Caption = 'TabSheet9'
+      ClientHeight = 603
+      ClientWidth = 1012
+      TabVisible = False
+      object Shape12: TShape
+        Left = 312
+        Height = 121
+        Top = 168
+        Width = 305
+        OnMouseDown = Shape12MouseDown
+      end
+    end
+  end
+  object Shape6: TShape
+    Left = 228
+    Height = 65
+    Top = 18
+    Width = 65
+  end
+end
